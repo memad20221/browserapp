@@ -25,7 +25,7 @@ class SyncedTabsAdapter(
         return when (viewType) {
             DeviceViewHolder.LAYOUT_ID -> DeviceViewHolder(itemView)
             TabViewHolder.LAYOUT_ID -> TabViewHolder(itemView)
-            else -> throw IllegalStateException()
+            else -> error("Unable to create ViewHolder")
         }
     }
 

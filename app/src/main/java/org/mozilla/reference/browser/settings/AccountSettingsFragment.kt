@@ -171,6 +171,6 @@ class AccountSettingsFragment : PreferenceFragmentCompat() {
         SyncEngine.History -> pref_key_sync_history
         SyncEngine.Passwords -> pref_key_sync_passwords
         SyncEngine.Tabs -> pref_key_sync_tabs
-        else -> throw IllegalStateException("Accessing unsupported sync engines")
+        else -> error("Accessing unsupported sync engines")
     }
 }
