@@ -88,6 +88,10 @@ This assumes that you have built, packaged, and published your local GeckoView -
 
 Do not forget to run a Gradle sync in Android Studio after changing `local.properties`. If you specified any substitutions (e.g. GeckoView), they will be reflected in the modules list, and you'll be able to modify them from a single Android Studio window. For auto-publication workflow, use seperate Android Studio windows.
 
+## Sponsors
+This project is tested with [BrowserStack](https://BrowserStack.com) by 25/10/2022. 
+<a href="https://browserstack.com/"><img title="BrowserStack" src="https://d2ogrdw2mh0rsl.cloudfront.net/production/images/static/header/header-logo.svg" width="400"></a>
+
 # License
 
     This Source Code Form is subject to the terms of the Mozilla Public
